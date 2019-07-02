@@ -13,7 +13,9 @@ This app uses the serverless platform [faastruby](https://faastruby.io/). Sign u
 faastruby deploy-to prod
 ```
 
-### Handlers
+## Contributing
+
+### Changing the handler
 
 Handlers take one argument, `event`.
 
@@ -44,3 +46,7 @@ You can set custom headers using a hash with string keys. Example:
 ```ruby
 render text: 'It Works!', headers: {'TransactionId' => 23928}
 ```
+
+### Changing the model
+
+It's in `lib`. Test what you write.
