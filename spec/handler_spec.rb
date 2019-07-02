@@ -16,6 +16,6 @@ describe 'handler(event)' do
   it 'should reply with a random UUID' do
     Kernel.srand(1)
     body = handler(event).body
-    expect(body).to eq "Purple Ninetales 10"
+    expect(body).to eq "Orange Ninetales 13"
   end
 end
